@@ -73,8 +73,9 @@ return_value = round(rf + (beta * (rm - rf)), 2)
 # ==============================================================================
 # UI VISUALIZATION LAYOUT
 # ==============================================================================# 
+# --- Find these lines in pages/Calculate_Beta.py and update them ---
 
-st.markdown(f'### **Asset Beta :** `{round(beta, 2)}`')
+st.markdown(f'### **Asset Beta ($\beta$):** `{round(beta, 2)}`')
 st.markdown(f'### **Annualized Market Return ($R_m$):** `{round(rm, 2)}%`')
 st.markdown(f'### **CAPM Projected Annual Return ($E(R_i)$):** `{return_value}%`')
 
