@@ -56,7 +56,7 @@ try:
     return_value = round(rf + (beta * (rm - rf)), 2)
 
     # Render LaTeX Equations Strings cleanly without raw formatting bugs
-    st.markdown(f'### **Asset Beta ($\beta$):** `{round(beta, 2)}`')
+    st.markdown(f'### **Asset Beta :** `{round(beta, 2)}`')
     st.markdown(f'### **Annualized Market Return ($R_m$):** `{round(rm, 2)}%`')
     st.markdown(f'### **CAPM Projected Annual Return ($E(R_i)$):** `{return_value}%`')
 
