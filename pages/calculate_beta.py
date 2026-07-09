@@ -72,7 +72,8 @@ return_value = round(rf + (beta * (rm - rf)), 2)
 
 # ==============================================================================
 # UI VISUALIZATION LAYOUT
-# ==============================================================================
+# ==============================================================================# 
+
 st.markdown(f'### **Asset Beta ($\beta$):** `{round(beta, 2)}`')
 st.markdown(f'### **Annualized Market Return ($R_m$):** `{round(rm, 2)}%`')
 st.markdown(f'### **CAPM Projected Annual Return ($E(R_i)$):** `{return_value}%`')
